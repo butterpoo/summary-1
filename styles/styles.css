@@ -1,0 +1,33 @@
+header h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(170, 47, 170);
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+body {
+    text-align: center;
+}
+
+ol {
+    font-family: 'Roboto' sans-serif;   
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 600px;
+    margin: auto;
+    text-align: left;
+    color: white;
+    background-color: rgb(200, 39, 200);
+    border-radius: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
