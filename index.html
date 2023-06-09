@@ -1,28 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Summary</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>HTML & CSS Basics Summary</h1>
+      <h1>HTML & CSS Basics Summary</h1>
+      <img src="images/logo.png" alt="CSS HTML logo" />
     </header>
     <main>
-        <img src="images/logo.png" alt="CSS HTML logo">
-        <ol>
-            <h2>HTML Summary</h2>
-            <p>HTML (HyperText Markup Language) is used to define our page content, structure and meaning.
-                You <span class="bold">don't</span> use it for styling purposes. Use CSS for that instead!</p>
-            <p class="bullet-point">HTML uses "elements" to describe (annotate) content</p>
-        </ol>
-    </main>
-</body>
+      <section>
+        <h2>HTML Summary</h2>
+        <p>
+          HTML (HyperText Markup Language) is used to define our page content,
+          structure and meaning. You <strong>don't</strong> use it for styling
+          purposes. Use CSS for that instead!
+        </p>
+        <ul>
+          <li class="extra-important">
+            HTML uses "elements" to describe (annotate) content.
+          </li>
+          <li>You can also have void(empty) elements like images/</li>
+          <li class="extra-important">
+            You can also configure elements with attributes.
+          </li>
+          <li class="extra-important">
+            There's a long list of available elements but you'll gain experience
+            overtime, no worries.
+          </li>
+        </ul>
+        <p>
+          Learn more about HTML elements on the
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
+            >MDN HTML element reference.</a
+          >
+        </p>
+      </section>
 
+      <section>
+        <h2>CSS Summary</h2>
+        <p>
+          CSS (Cascading Style Sheets) is used for styling your page content
+        </p>
+        <ul>
+          <li>Styles are assigned via property-value pairs.</li>
+          <li>You can assign styles via the style attribute.</li>
+          <li class="extra-important">
+            To avoid code duplication, you typically use global styles (e.g. the
+            style element.)
+          </li>
+          <li>
+            Alternatively, you can work with external stylesheets files which
+            you "link" to.
+          </li>
+          <li class="extra-important">
+            When working with CSS, concepts like inheritance, specificity, and
+            the box model should be understood.
+          </li>
+        </ul>
+        <p>
+          Learn more about available CSS properties on the
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+            >MDN CSS property reference.</a
+          >
+        </p>
+      </section>
+    </main>
+    <footer>
+      <a href="pdf/html-css-basics-summary.pdf" target="_blank"
+        >Download PDF Summary</a
+      >
+      <p>Butterpoo Inc.</p>
+    </footer>
+  </body>
 </html>
